@@ -18,5 +18,8 @@
   "homepage": "https://github.com/WSCZou/ts-study#readme",
   "dependencies": {
     "@type-challenges/utils": "^0.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
   }
 }
