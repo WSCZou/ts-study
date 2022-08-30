@@ -1,0 +1,15 @@
+/*
+ * @Author: jialiangzou
+ * @Date: 2022-08-30 14:58:40
+ * @LastEditors: jialiangzou
+ * @LastEditTime: 2022-08-30 14:59:34
+ * @FilePath: /ts-study/type-challenge/04179-medium-flip/test-cases.ts
+ */
+import type { Equal, Expect, NotEqual } from '@type-challenges/utils'
+
+type cases = [
+  Expect<Equal<{ a: 'pi' }, Flip<{ pi: 'a' }>>>,
+  Expect<NotEqual<{ b: 'pi' }, Flip<{ pi: 'a' }>>>,
+  Expect<Equal<{ 3.14: 'pi'; true: 'bool' }, Flip<{ pi: 3.14; bool: true }>>>,
+  Expect<Equal<{ val2: 'prop2'; val: 'prop' }, Flip<{ prop: 'val'; prop2: 'val2' }>>>,
+]
