@@ -2,7 +2,7 @@
  * @Author: jialiangzou
  * @Date: 2022-09-23 21:27:39
  * @LastEditors: jialiangzou
- * @LastEditTime: 2022-09-23 21:33:12
+ * @LastEditTime: 2022-09-26 22:18:17
  * @FilePath: /ts-study/type-challenge/07544-medium-construct-tuple/test-cases.ts
  */
 import type { Equal, Expect } from '@type-challenges/utils'
